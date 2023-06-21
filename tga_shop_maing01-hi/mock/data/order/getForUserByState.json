@@ -1,0 +1,40 @@
+{
+  "awid": "22222222222222222222222222222222",
+  "id": "5c9103df323cc0000c303009",
+  "sys": {
+    "cts": "2019-03-19T14:59:43.847Z",
+    "mts": "2020-04-16T13:55:18.896Z",
+    "rev": 4
+  },
+  "state": "active",
+  "name": "tga shop",
+  "authorizedProfileList": ["Authorities", "Executives", "Readers"],
+  "orderList": [ {
+    "creationTime": "2021-08-18T13:54:13.775Z",
+    "productList": [
+      {
+        "name": "secondName",
+        "state": "active",
+        "price": 3211,
+        "id": "611ccb00f16df1164ca35a52",
+        "count": 1
+      },
+      {
+        "name": "secondName",
+        "state": "active",
+        "price": 123,
+        "id": "611cb5bcbc084e3d1825d42a",
+        "count": 3
+      }
+    ],
+    "state": "active",
+    "awid": "22222222222222222222222222222222",
+    "sys": {
+      "cts": "2021-08-18T13:54:13.779Z",
+      "mts": "2021-08-18T13:54:13.779Z",
+      "rev": 0
+    },
+    "id": "611d1105bd7d432e048d0560"
+  }
+  ]
+}

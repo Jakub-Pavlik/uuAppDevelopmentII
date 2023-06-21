@@ -1,0 +1,103 @@
+{
+  "{asid}": {
+    "profileList": ["AsidAuthorities", "AsidExecutives", "AsidLicenseOwner", "Public"],
+    "useCaseMap": {
+      "knock/theDoor": {
+        "sysStateList": ["active"],
+        "profileList": ["AsidAuthorities"]
+      }
+    }
+  },
+  "*": {
+    "profileList": ["Authorities", "Executives", "AwidLicenseOwner", "Auditors", "Public", "Customers", "SysIdentity"],
+    "useCaseMap": {
+      "sys/uuAppWorkspace/init": {
+        "sysStateList": ["created"],
+        "profileList": ["AwidLicenseOwner"]
+      },
+      "sys/uuAppWorkspace/load": {
+        "sysStateList": ["active"],
+        "profileList": ["Authorities", "Executives", "Customers"]
+      },
+      "workspace/remove": {
+        "sysStateList": ["active", "created", "closed"],
+        "profileList": ["AwidLicenseOwner"]
+      },
+      "defaultUve": {
+        "profileList": ["Public"]
+      },
+      "sys/uuAppWorkspace/initUve": {
+        "sysStateList": ["created"],
+        "profileList": ["Public", "AwidLicenseOwner"]
+      },
+      "eshopMain/setState": {
+        "sysStateList": ["active"],
+        "profileList": ["Authorities", "Executives"]
+      },
+      "eshopMain/update": {
+        "sysStateList": ["active"],
+        "profileList": ["Authorities", "Executives"]
+      },
+      "order/topOrders": {
+        "sysStateList": ["active"],
+        "profileList": ["Authorities", "Executives"]
+      },
+      "order/create": {
+        "sysStateList": ["active"],
+        "profileList": ["Authorities", "Executives", "Customers"]
+      },
+      "order/get": {
+        "sysStateList": ["active"],
+        "profileList": ["Authorities", "Executives", "Customers"]
+      },
+      "order/list": {
+        "sysStateList": ["active"],
+        "profileList": ["Authorities", "Executives"]
+      },
+      "order/setState": {
+        "sysStateList": ["active"],
+        "profileList": ["Authorities", "Executives"]
+      },
+      "order/addProduct": {
+        "sysStateList": ["active"],
+        "profileList": ["Authorities", "Executives", "Customers"]
+      },
+      "order/buy": {
+        "sysStateList": ["active"],
+        "profileList": ["Authorities", "Executives", "Customers"]
+      },
+      "product/create": {
+        "sysStateList": ["active"],
+        "profileList": ["Authorities", "Executives"]
+      },
+      "product/delete": {
+        "sysStateList": ["active"],
+        "profileList": ["Authorities", "Executives"]
+      },
+      "product/get": {
+        "sysStateList": ["active"],
+        "profileList": ["Authorities", "Executives", "Customers"]
+      },
+      "product/load": {
+        "sysStateList": ["active"],
+        "profileList": ["Authorities", "Executives", "Customers"]
+      },
+      "product/update": {
+        "sysStateList": ["active"],
+        "profileList": ["Authorities", "Executives"]
+      },
+      "product/list": {
+        "sysStateList": ["active"],
+        "profileList": ["Authorities", "Executives", "Customers"]
+      },
+      "product/setState": {
+        "sysStateList": ["active"],
+        "profileList": ["Authorities", "Executives"]
+      },
+      "knock/knock": {
+        "sysStateList": ["active"],
+        "profileList": ["SysIdentity"]
+      }
+    }
+  }
+}

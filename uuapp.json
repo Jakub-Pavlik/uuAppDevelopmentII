@@ -1,0 +1,75 @@
+{
+  "product": "tga_eshop_maing01",
+  "version": "0.1.0",
+  "license": "License Commercial",
+  "description": {
+    "en": "",
+    "cs": ""
+  },
+  "devkit": {
+    "development": {
+      "appBoxLocationUri": "----- VALUE REQUIRED -----",
+      "appDeploymentUri": null
+    }
+  },
+  "tga_shop_maing01-hi": {
+    "componentList": [
+      {
+        "code": "TgaShop.Routes.ProductDetail",
+        "name": "ProductDetail",
+        "tagList": ["TgaShop", "Routes", "ProductDetail"],
+        "docCode": "TgaShopRoutesProductDetail",
+        "desc": "",
+        "icon": "",
+        "imageUri": "",
+        "uuEccReady": false,
+        "template": "<TgaShop.Routes.ProductDetail />"
+      },
+      {
+        "code": "TgaShop.Product.Detail",
+        "name": "Detail",
+        "tagList": ["TgaShop", "Product", "Detail"],
+        "docCode": "TgaShopProductDetail",
+        "desc": "",
+        "icon": "",
+        "imageUri": "",
+        "uuEccReady": false,
+        "template": "<TgaShop.Product.Detail />"
+      },
+      {
+        "code": "TgaShop.Product.Loader",
+        "name": "Loader",
+        "tagList": ["TgaShop", "Product", "Loader"],
+        "docCode": "TgaShopProductLoader",
+        "desc": "",
+        "icon": "",
+        "imageUri": "",
+        "uuEccReady": false,
+        "template": "<TgaShop.Product.Loader />"
+      },
+      {
+        "code": "TgaShop.Core.ContextProviders",
+        "name": "ContextProviders",
+        "tagList": ["TgaShop", "Core", "ContextProviders"],
+        "docCode": "TgaShopCoreContextProviders",
+        "desc": "",
+        "icon": "",
+        "imageUri": "",
+        "uuEccReady": false,
+        "template": "<TgaShop.Core.ContextProviders />"
+      },
+      {
+        "code": "TgaShop.Core.StateResolvers",
+        "name": "StateResolvers",
+        "tagList": ["TgaShop", "Core", "StateResolvers"],
+        "docCode": "TgaShopCoreStateResolvers",
+        "desc": "",
+        "icon": "",
+        "imageUri": "",
+        "uuEccReady": false,
+        "template": "<TgaShop.Core.StateResolvers />"
+      }
+    ]
+  },
+  "tga_shop_maing01-server": {}
+}

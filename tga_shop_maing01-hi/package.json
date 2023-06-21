@@ -1,0 +1,54 @@
+{
+  "name": "tga_shop_maing01-hi",
+  "version": "0.1.0",
+  "private": true,
+  "description": "",
+  "license": "License Commercial",
+  "namespace": "TgaShop",
+  "spec": "uu5-app; uu_appg01_devkit@4.6.0",
+  "dependencies": {
+    "uu_contentkitg01": "^2.0.0",
+    "uu_editablecomponentcontentg03": "^1.0.0",
+    "uu_plus4u5g01": "^4.0.0",
+    "uu_territoryg01": "^1.0.0",
+    "uu5g04": "^1.19.0",
+    "uu5loaderg01": "^1.0.3",
+    "uu5tilesg02": "^1.15.1"
+  },
+  "uuBuildSettings": {
+    "externals": {
+      "tga_shop_core": {
+        "cdnBaseUri": "https://cdn.plus4u.net/beta/tga-shop-uu5lib/0.0.0/",
+        "main": "tga_shop_core.js"
+      },
+      "uu_editablebinarycontentg01": {
+        "cdnBaseUri": "https://cdn.plus4u.net/uu-editablebinarycontentg01/1.0.0/"
+      },
+      "uu_businessbrickg01": {
+        "cdnBaseUri": "https://cdn.plus4u.net/beta/uu-businessbrickg01/0.0.0/"
+      }
+    }
+  },
+  "devDependencies": {
+    "uu_appg01_devkit": "^4.2.1"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "scripts": {
+    "clean": "uu_appg01_devkit clean",
+    "test": "uu_appg01_devkit test",
+    "build": "uu_appg01_devkit build",
+    "package": "uu_appg01_devkit package",
+    "start": "uu_appg01_devkit start",
+    "prettify": "uu_appg01_devkit prettify",
+    "vulnerabilityScan": "uu_appg01_devkit vulnerabilityScan",
+    "generate": "uu_appg01_devkit generate",
+    "lsiExport": "uu_appg01_devkit lsiExport",
+    "lsiImport": "uu_appg01_devkit lsiImport",
+    "uuAppDevKitUpgrade": "uu_appg01_devkit uuAppDevKitUpgrade"
+  },
+  "prettier": {
+    "printWidth": 120
+  }
+}

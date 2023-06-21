@@ -1,0 +1,13 @@
+{
+  "port": 8080,
+  "uuSubAppDataStoreMap": {
+    "primary": "mongodb://127.0.0.1:27018/shopMainPrimary",
+    "binary": "mongodb://127.0.0.1:27018/shopMainEbc"
+  },
+  "asid_license_owner_list": ["23-6520-1", "6-138-1", "3077-8158-5154-0000", "5278-1157-5179-0000"],
+  "asid": "0000090a173f47a2bd96dab79ef7ed99",
+  "uu_app_binarystore_uri": "mongodb://127.0.0.1:27018/shopMainEbc",
+  "uu_app_oidc_providers_oidcg02_uri": "https://uuapp-dev.plus4u.net/uu-oidc-maing02/eca71064ecce44b0a25ce940eb8f053d/oidc",
+  "tgashop.businessbrick.statecheck.log_level": "INFO",
+  "log_level": "INFO"
+}

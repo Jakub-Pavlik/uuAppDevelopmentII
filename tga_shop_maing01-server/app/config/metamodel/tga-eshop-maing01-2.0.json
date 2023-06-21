@@ -1,0 +1,37 @@
+{
+  "schemaVersion": "2.0",
+  "code": "vendor-app-subapp{generation}",
+  "name": "tgaEshopMaing01 uuAppMetaModel",
+  "desc": "tgaEshopMaing01 uuAppMetaModel",
+  "version": "0.1.0",
+  "defaultIcon": "uubml-shopping-cart",
+  "defaultCategory": "control",
+  "stateDataSchema": "shape({progress: shape({weight: integer(), current: integer (0, 100)})}, nostrict, 10000)",
+  "stateList": [],
+  "roleProfileList": [
+    {
+      "code": "SystemIdentity",
+      "name": "<uu5string/><UU5.Bricks.Lsi><UU5.Bricks.Lsi.Item language='en'>System identity</UU5.Bricks.Lsi.Item><UU5.Bricks.Lsi.Item language='cs'>Systémová identita</UU5.Bricks.Lsi.Item></UU5.Bricks.Lsi>",
+      "desc": "<uu5string/><UU5.Bricks.Lsi><UU5.Bricks.Lsi.Item language='en'>Profile of artifact's application system identity</UU5.Bricks.Lsi.Item><UU5.Bricks.Lsi.Item language='cs'>Profil aplikační systémové identity role artefaktu</UU5.Bricks.Lsi.Item></UU5.Bricks.Lsi>"
+    },
+    {
+      "code": "ResponsibleRole",
+      "name": "<uu5string/><UU5.Bricks.Lsi><UU5.Bricks.Lsi.Item language='en'>Resposible role</UU5.Bricks.Lsi.Item><UU5.Bricks.Lsi.Item language='cs'>Kompetentní role</UU5.Bricks.Lsi.Item></UU5.Bricks.Lsi>",
+      "desc": "<uu5string/><UU5.Bricks.Lsi><UU5.Bricks.Lsi.Item language='en'>Profile of artifact's responsible role</UU5.Bricks.Lsi.Item><UU5.Bricks.Lsi.Item language='cs'>Profil kompetentní role za artefakt</UU5.Bricks.Lsi.Item></UU5.Bricks.Lsi>"
+    }
+  ],
+  "roleGroupProfileList": [],
+  "defaultPermissionMatrix": ["00000000-00000000-00000000-00000000"],
+  "ancestorPathList": [],
+  "ancestorMap": {
+    "uu-businessterritory-maing01/uuAwsc": {}
+  },
+  "synchronizeUuCmdMap": {},
+  "lsiObjectAttributeList": ["name", "desc"],
+  "useCaseProfileMap": {
+    "tga-eshop-maing01/order/create": {
+      "roleGroupProfileMaskList": ["00000000-00000000-00000000-00000000"],
+      "roleProfileMaskList": ["00000000-00000000-00000000-00000000"]
+    }
+  }
+}
